@@ -45,3 +45,9 @@
 .col-small {
     flex-basis: calc((100% - (calc((100% / 10) * 3))) / 4);
 }
+
+.debug [class^="col-"] {
+    border: 2px dashed black;
+    min-height: 500px;
+    padding: 10px;
+}
