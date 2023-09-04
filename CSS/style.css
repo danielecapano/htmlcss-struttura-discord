@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-2 {
+    flex-basis: calc((100% / 10) * 2);
+}
+
+.col-3 {
+    flex-basis: calc((100% / 10) * 3);
+}
+
+
+.col-5 {
+    flex-basis: calc((100% / 10) * 5);
+}
+
+
+.col-6 {
+    flex-basis: calc((100% / 10) * 6);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 10) * 7);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 10) * 8);
+}
+
+.col-10 {
+    flex-basis: 100%;
+}
+
+.col-small {
+    flex-basis: calc((100% - (calc((100% / 10) * 3))) / 4);
+}
