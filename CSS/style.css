@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
+/* LAYOUT */
+
 .container {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -46,8 +49,38 @@
     flex-basis: calc((100% - (calc((100% / 10) * 3))) / 4);
 }
 
+/* DEBUG */
+
 .debug [class^="col-"] {
     border: 2px dashed black;
     min-height: 500px;
     padding: 10px;
+}
+
+.debug navbar [class^="col-"] {
+    min-height: 0;
+}
+
+/* HAEADER */
+
+.main-header {
+    background-color: #add8e6;
+    padding-block: 15px;
+}
+
+navbar {
+    display: block;
+    background-color: #daa520;
+    /* height: 45px; */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login {
+    text-align: right;
 }
