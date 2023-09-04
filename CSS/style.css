@@ -17,6 +17,7 @@ body {
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 .col-2 {
@@ -28,8 +29,8 @@ body {
 }
 
 
-.col-5 {
-    flex-basis: calc((100% / 10) * 5);
+.col-4 {
+    flex-basis: calc((100% / 10) * 4);
 }
 
 
@@ -37,9 +38,6 @@ body {
     flex-basis: calc((100% / 10) * 6);
 }
 
-.col-7 {
-    flex-basis: calc((100% / 10) * 7);
-}
 
 .col-8 {
     flex-basis: calc((100% / 10) * 8);
@@ -65,6 +63,51 @@ body {
     min-height: 0;
 }
 
+.debug navbar .col-6 {
+    background-color: #daa520;
+}
+
+.debug .col-3 {
+    background-color: #f08080;
+}
+
+.debug .col-4 {
+    background-color: #ffc0cb;
+}
+
+.debug .col-6 {
+    background-color: #1e90ff;
+}
+
+.debug .col-8 {
+    background-color: #ee82ee;
+    min-height: 400px;
+}
+
+.debug .col-10 {
+    background-color: #228b22;
+    min-height: 900px;
+}
+
+.debug .col-small {
+    background-color: #20b2aa;
+    border-color: #FFF;
+}
+
+.debug .gray {
+    background-color: #d3d3d3;
+}
+
+.debug .brown {
+    background-color: #23272a;
+}
+
+.debug .hero {
+    background-color: #00008b;
+}
+
+
+
 /* HAEADER */
 
 .main-header {
@@ -87,4 +130,10 @@ navbar {
 
 .login {
     text-align: right;
+}
+
+/* SECTIONS */
+
+section {
+    padding-block: 50px;
 }
