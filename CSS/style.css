@@ -21,34 +21,44 @@ body {
 }
 
 .col-2 {
-    flex-basis: calc((100% / 10) * 2);
+    flex-basis: calc(100% / 6);
 }
 
 .col-3 {
-    flex-basis: calc((100% / 10) * 3);
+    flex-basis: calc(100% / 4);
 }
 
 
 .col-4 {
-    flex-basis: calc((100% / 10) * 4);
+    flex-basis: calc(100% / 3);
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
 }
 
 
 .col-6 {
-    flex-basis: calc((100% / 10) * 6);
+    flex-basis: calc(100% / 2);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
 }
 
 
 .col-8 {
-    flex-basis: calc((100% / 10) * 8);
+    flex-basis: calc((100% / 12) * 8);
 }
 
 .col-10 {
-    flex-basis: 100%;
+    flex-basis: calc((100% / 12) * 10);
 }
 
-.col-small {
-    flex-basis: calc((100% - (calc((100% / 10) * 3))) / 4);
+
+
+.col-12 {
+    flex-basis: 100%;
 }
 
 /* DEBUG */
@@ -63,33 +73,35 @@ body {
     min-height: 0;
 }
 
-.debug navbar .col-6 {
+.debug navbar .col-8,
+.debug navbar .col-2 {
     background-color: #daa520;
-}
-
-.debug .col-3 {
-    background-color: #f08080;
+    border-color: black;
 }
 
 .debug .col-4 {
+    background-color: #f08080;
+}
+
+.debug .col-5 {
     background-color: #ffc0cb;
 }
 
-.debug .col-6 {
+.debug .col-7 {
     background-color: #1e90ff;
 }
 
-.debug .col-8 {
+.debug .col-10 {
     background-color: #ee82ee;
     min-height: 400px;
 }
 
-.debug .col-10 {
+.debug .col-12 {
     background-color: #228b22;
     min-height: 900px;
 }
 
-.debug .col-small {
+.debug .col-2 {
     background-color: #20b2aa;
     border-color: #FFF;
 }
